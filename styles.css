@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding: 50px;
+    background: url("https://i.ytimg.com/vi/A6vlG4B9dGM/maxresdefault.jpg");
+    object-fit: cover;
+}
+
+h1 {
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+input {
+    height: 40px;
+    padding: 5px;
+    border: 1px solid greenyellow;
+    width: 10em;
+}
+
+form>button {
+    width: 10em;
+    background: lightgreen;
+    padding: 0.7em 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    font-size: 1.5em;
+    width: 80%;
+    margin: auto;
+}
+
+ul>li {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    padding: 25px;
+    background-color: cyan;
+}
+
+ul>li>button {
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeaderBord</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b0de7f475e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <h1 class="animate__animated animate__bounce">LeaderBord</h1>
+      <form onsubmit="addPlayer(event)">
+        <div>
+          <input
+            id="first-name"
+            name="first-name"
+            type="text"
+            placeholder="First Name"
+            minlength="3"
+          />
+        </div>
+
+        <div>
+          <input
+            id="last-name"
+            name="last-name"
+            type="text"
+            placeholder="Last Name"
+          />
+        </div>
+
+        <div>
+          <input
+            id="country"
+            name="country"
+            type="text"
+            placeholder="Country"
+          />
+        </div>
+
+        <div>
+          <input
+            id="score"
+            type="number"
+            name="score"
+            placeholder="Score"
+            max="100"
+            min="0"
+          />
+        </div>
+
+        <button type="submit">Add Player</button>
+      </form>
+      <ul id="player-list"></ul>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
